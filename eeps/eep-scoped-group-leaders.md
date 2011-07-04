@@ -116,6 +116,13 @@ comes handy.  Implicit configurations, security groups and many other
 problems would benefit from being able to use this generalized group
 leader mechanism.
 
+One of the potential uses of this technique could be an extension of
+I/O leader paradigm into web development, with a `web` group leader
+representing an HTTP connection, WebSocket or a session.  With this 
+approach one can use the same technique used by I/O primitives to allow
+transparent access to HTTP communication channels, within either local
+or remote processes.
+
 
 Rationale
 =========
